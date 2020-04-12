@@ -206,12 +206,12 @@
 
     <distributionManagement>
         <repository>
-            <id>nexus-releases</id>
+            <id>releases</id>
             <name>Releases</name>
             <url>http://59.110.231.4:8888/nexus/content/repositories/releases/</url>
         </repository>
         <snapshotRepository>
-            <id>nexus-snapshots</id>
+            <id>snapshots</id>
             <name>Snapshots</name>
             <url>http://59.110.231.4:8888/nexus/content/repositories/snapshots/</url>
         </snapshotRepository>
