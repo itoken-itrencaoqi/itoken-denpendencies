@@ -207,12 +207,12 @@
     <distributionManagement>
         <repository>
             <id>nexus-releases</id>
-            <name>Nexus Release Repository</name>
+            <name>Releases</name>
             <url>http://59.110.231.4:8888/nexus/content/repositories/releases/</url>
         </repository>
         <snapshotRepository>
             <id>nexus-snapshots</id>
-            <name>Nexus Snapshot Repository</name>
+            <name>Snapshots</name>
             <url>http://59.110.231.4:8888/nexus/content/repositories/snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
@@ -220,7 +220,7 @@
     <repositories>
         <repository>
             <id>nexus</id>
-            <name>Nexus Repository</name>
+            <name>Public Repositories</name>
             <url>http://59.110.231.4:8888/nexus/content/groups/public/</url>
             <snapshots>
                 <enabled>true</enabled>
@@ -286,7 +286,7 @@
     <pluginRepositories>
         <pluginRepository>
             <id>nexus</id>
-            <name>Nexus Plugin Repository</name>
+            <name>Public Repositories</name>
             <url>http://59.110.231.4:8888/nexus/content/groups/public/</url>
             <snapshots>
                 <enabled>true</enabled>
